@@ -1,12 +1,13 @@
 # shop-page
 
-The reason why I wanted to create a pharmaceutical page is because I have my background in the pharmacy and I wanted to do something that has been a part of my daily life during many years. I love spreading knowledge about medication use and help people to have a better understanding in how to use their medicines. This project is only one week old so I have not had enough time to add many medicines yet, only a few otc drugs so far. It has been taking some time since I do not have an endpoint for all the drugs so I had to create my own endpoint which is time consuming. I also wanted this page to be available for everyone so I made it live by deploying it with firebase Hoisting. Open this link to see my page. https://shop-page-c4c0e.web.app/ I have used React with typescript in this project and I have also written a few unit tests ( https://github.com/elaheesk/your-pharmacist/blob/main/your-pharmacist/src/App.test.tsx ) for my application.
+The reason why I wanted to create a shop page is to show I can do some of the basic things like api-calls, routing, filtering, sorting, adding new keys to the api, and so on. I have also tested some parts of my code, but have much more left to test. deployed the project with firebase Hoisting so if you open the link you will see it. https://shop-page-c4c0e.web.app/ 
+Since this project is old it does not include typescript but that is something I am going to add soon.
 
 
 
+I have deployed my project with firebase so it is live.I 
 
-I have deployed my project with firebase so it is live.
-
-*Before starting the project run the below commands: npm install
+*Before starting the project run the below commands: 
+npm install
 
 *To start the project npm start
