@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.body {
+	height: 100%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	background-image: url("https://www.mitti.se/_internal/cimg!0/f58r1gt8drfhp4maarsb4ascgadla12.jpeg");
+	background-repeat: no-repeat;
+	border-radius: 5px;
+}
+.center {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 45%;
+	max-height: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+	.center {
+		height: 100%;
+		overflow: scroll;
+		width: 100%;
+	}
+}
+.center .avatar img {
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	margin-top: 5%;
+	object-fit: cover;
+	object-position: 0 -8px;
+}
+.content {
+	padding: 30px;
+}
+.h1 {
+	color: rgb(212, 212, 212);
+}
+.h3 {
+	color: rgb(155, 155, 155);
+}
+.content .h2,
+.pDescription,
+.content .h2,
+.p {
+	font-weight: lighter;
+	color: antiquewhite;
+	letter-spacing: 1px;
+	width: 70%;
+	margin: 10px auto;
+	text-align: left;
+}
+.social i,
+.social a {
+	padding: 0 10px;
+	font-size: 40px;
+	color: rgb(255, 255, 255, 0.6);
+	transition: 0.4s;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+.social i:hover,
+.social a:hover {
+	color: rgba(255, 255, 255, 1);
 }
