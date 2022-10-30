@@ -1,0 +1,31 @@
+{
+	"database": {
+		"rules": "database.rules.json"
+	},
+	"hosting": {
+		"site": "shop-page-c4c0e",
+		"public": "build",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		]
+	},
+	"emulators": {
+		"firestore": {
+			"port": 8000
+		},
+		"database": {
+			"port": 9000
+		},
+		"hosting": {
+			"port": 5000
+		},
+		"ui": {
+			"enabled": true
+		},
+		"singleProjectMode": true
+	}
+}
