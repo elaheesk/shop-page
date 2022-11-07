@@ -6,4 +6,5 @@ I have deployed my project with firebase so it is live.I
 
 *To start the project npm start
 
-*I have also written unit-tests for my code which you will find in the App.test.js file
+*I have also written unit-tests for my code which you will find in under src folder in App.test.js
+
