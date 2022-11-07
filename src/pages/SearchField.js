@@ -1,7 +1,7 @@
 import React from "react";
 import { ContextFunction } from "../UserContext";
 import ProductCard from "../components/ProductCard";
-import { Grid, TextField, Autocomplete, Box } from "@mui/material";
+import { Grid, TextField, Autocomplete, Box, Typography } from "@mui/material";
 
 const SearchField = () => {
 	const { products } = ContextFunction();
@@ -19,6 +19,13 @@ const SearchField = () => {
 		<Grid container direction="column" spacing={5}>
 			<Grid item>
 				<Grid container>
+					<Typography
+						component="h1"
+						variant="h4"
+						fontWeight="light"
+						gutterBottom>
+						Start seraching for items
+					</Typography>
 					<Grid item>
 						<Autocomplete
 							getOptionLabel={(option) => option.title}

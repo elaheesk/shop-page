@@ -12,21 +12,18 @@ const Home = () => {
 				</div>
 
 				<div className="content">
-					<h1 className="h2">Elahe Eskandari</h1>
-					<h2 className="h3">Frontend developer student</h2>
+					<h1 className="h1">Elahe Eskandari</h1>
+					<h2 className="h3">Frontend developer</h2>
 
 					<p className="pDescription">
-						I embraced the flexibility of online learning  and  thorough the
-						Frontend developement Programme at Ec Utbildning, I have studied
-						during weekdays while been working at pharmacy on the weekends. I
-						have good skills in HTML5 and CSS, React js, Redux, Typescript,
-						Material Ui, UX-technique and NodeJS, and some basic knowledge in
-						GitHub. Therefore I am looking for internships to start immediately
-						and I am confident that my positive attitude contributes to a
-						positive environment. The fact that I put all my effort and really
-						obsess about solving the problem at hand, has so far helped me
-						exceed my own expectations and personal goals since I started
-						coding. Looking forward to hear from you.
+						Frontend developer looking for a place to grow as well as leading
+						the frontend development forward. I believe my positive attitude and
+						willingness to learn has brought the best in me and inspired others
+						around me in the same way. The two things I value the most in carrer
+						are the chance to grow/develop and to have a good team at work. I
+						feel a constant hunger for growth and want to feel better than I was
+						yesterday. My collauges would describe me as helpful, determined and
+						good at maintaining calm and focused during high stress.
 					</p>
 				</div>
 			</div>

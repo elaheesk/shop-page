@@ -30,11 +30,11 @@ const NavigationBar = () => {
 						Search
 					</Link>
 				</Typography>
-				<Typography fontWeight={"light"} variant="body" sx={{ marginRight: 1 }}>
-					<Link component={RouterLink} to="products">
-						Proucts
-					</Link>
-				</Typography>
+				{/* <Typography fontWeight={"light"} variant="body" sx={{ marginRight: 1 }}> */}
+				<Link component={RouterLink} to="products">
+					Proucts
+				</Link>
+				{/* </Typography> */}
 				<Typography fontWeight={"light"} variant="body" sx={{ marginLeft: 2 }}>
 					<Link component={RouterLink} to="favourites">
 						Favourites

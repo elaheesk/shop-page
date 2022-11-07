@@ -1,6 +1,5 @@
 .body {
 	height: 100%;
-
 	background-image: url("https://www.mitti.se/_internal/cimg!0/f58r1gt8drfhp4maarsb4ascgadla12.jpeg");
 	background-repeat: no-repeat;
 	border-radius: 5px;
@@ -12,6 +11,7 @@
 	text-align: center;
 	border-radius: 5px;
 }
+
 @media only screen and (max-width: 600px) {
 	.center {
 		height: 100%;
@@ -59,4 +59,17 @@
 .social i:hover,
 .social a:hover {
 	color: rgba(255, 255, 255, 1);
+}
+@media only screen and (min-width: 600px) {
+	.center {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.center {
+		padding: 40px 0;
+	}
+	.avatar {
+		width: 50%;
+	}
 }
